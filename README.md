@@ -23,7 +23,7 @@ In both cases you should see the NextJS error dialog.
 
 
 With `useNextScript` set to false in `pages/_app.tsx`
-- Go to [http://localhost:3000/test1](http://localhost:3000/test1) to reproduce the issue on page load
-- Go to [http://localhost:3000/test2](http://localhost:3000/test1) to reproduce the issue on button click
+- Go to [http://localhost:3000/test1](http://localhost:3000/test1) to try to reproduce the issue on page load
+- Go to [http://localhost:3000/test2](http://localhost:3000/test1) to try to reproduce the issue on button click
 
 In both cases no errors are thrown.
