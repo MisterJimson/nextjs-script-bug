@@ -9,9 +9,9 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 # This is a repo to reproduce a bug with Next Script
+
+Create a `.env.local` with a valid value for `NEXT_PUBLIC_GTM_CONTAINER_ID`
 
 With `useNextScript` set to true in `pages/_app.tsx`
 - Go to [http://localhost:3000/test1](http://localhost:3000/test1) to reproduce the issue on page load
